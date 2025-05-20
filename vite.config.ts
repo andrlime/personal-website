@@ -21,6 +21,6 @@ export default defineConfig({
   preview: {
     host: true,
     port: 8080,
-    allowedHosts: ['*']
+    allowedHosts: ['*', "clownfish-app-hez8v.ondigitalocean.app", "andrewli.org", "www.andrewli.org", "andrewli.net", "www.andrewli.net"]
   }
 });
