@@ -4,7 +4,7 @@ export interface INavigationItem {
 }
 
 export const NAVIGATION_ITEMS: Array<INavigationItem> = [
-    {text: "📜 About", href: "/about"},
-    {text: "✏️ Projects", href: "/projects"},
-    {text: "📷 Photography", href: "/photos"},
+    {text: "About", href: "/about"},
+    {text: "Projects", href: "/projects"},
+    {text: "Photography", href: "/photos"},
 ];

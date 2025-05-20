@@ -1,0 +1,34 @@
+@use "@/shared/colors";
+@use "@/shared/breakpoints";
+
+.project__card {
+    padding: 1rem;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    text-align: left;
+    line-height: 1.2;
+
+    gap: 0.5rem;
+    
+    .project__title {
+        font-weight: 700;
+    }
+
+    .project__bottom {
+        justify-self: flex-end;
+        margin-top: auto;
+    }
+    
+    border-radius: 16px;
+    border: 1.5px solid colors.$border-light;
+    transition: border 150ms ease;
+    &:hover {
+        border: 1.5px solid colors.$accent-light;
+        transition: border 450ms ease;
+        cursor: default;
+    }
+}

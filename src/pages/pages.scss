@@ -81,8 +81,18 @@
   }
 }
 
-.box {
-  background-color: red;
-  padding: 2rem;
-}
+#projects_page__grid {  
+  display: grid;
+  width: 100%;
+  gap: 1rem;
 
+  grid-template-columns: repeat(1, 1fr);
+  
+  @include breakpoints.sm {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include breakpoints.lg {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
