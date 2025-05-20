@@ -1,6 +1,7 @@
 import "./pages.scss";
 
 import SocialsGrid from "@/components/socials/SocialsGrid.tsx";
+import Spacer from "@/components/spacer/Spacer";
 import ExperienceBox from "@/components/experience/ExperienceBox";
 
 export const HomePage: React.FC = () => {
@@ -9,6 +10,8 @@ export const HomePage: React.FC = () => {
       <SocialsGrid />
       
       <div id="page__heading">I'm Andrew Li, a software engineer and chemistry student at Northwestern University</div>
+
+      <Spacer height="xs" />
 
       <div className="page__two_columns">
         <div className="page__two_columns__left">

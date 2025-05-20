@@ -7,7 +7,7 @@ interface ISpacer {
 export const Spacer: React.FC<ISpacer> = ({height}) => {
   // funny hack because js doesn't have match
   const padding: string = {
-    "xs": "1em",
+    "xs": "0.7em",
     "sm": "2em",
     "md": "3em",
     "lg": "5em",
