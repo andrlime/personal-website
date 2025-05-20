@@ -9,6 +9,7 @@ import NorthwesternIcon from "@/assets/northwestern.svg";
 import NHSDLCIcon from "@/assets/nhsdlc.png";
 import NUFTIcon from "@/assets/nuft.png";
 import QHFZIcon from "@/assets/qhfz.jpg";
+import DefaultIcon from "@/assets/pink.png";
 
 interface IExperienceIcon {
     icon: experience_icon_t;
@@ -23,7 +24,7 @@ export const ExperienceIcon: React.FC<IExperienceIcon> = ({icon}) => {
     "nhsdlc": NHSDLCIcon,
 		"wildhacks": WildhacksIcon,
 		"qhfz": QHFZIcon,
-  }[icon];
+  }[icon] ?? DefaultIcon;
 
   return (
 		<div className="experience__company_icon">
