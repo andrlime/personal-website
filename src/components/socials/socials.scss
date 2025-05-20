@@ -1,0 +1,9 @@
+@use "@/shared/colors";
+@use "@/shared/breakpoints";
+
+.socials_icon {
+    color: colors.$accent-light;
+    &:visited {
+        color: colors.$accent-light;
+    }
+}

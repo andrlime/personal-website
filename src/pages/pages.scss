@@ -1,0 +1,88 @@
+@use "@/shared/colors";
+@use "@/shared/breakpoints";
+
+.page__body {
+  background-color: colors.$background-white;
+  width: 100%;
+
+  #page__heading {
+    font-weight: 800;
+    font-size: 1.8rem;
+    @include breakpoints.sm {
+      font-size: 2.4rem;
+    }
+  }
+
+  .page__two_columns {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 100%;
+
+    @include breakpoints.md {
+      flex-direction: row;
+    }
+
+    .page__two_columns__left {
+      width: 100%;
+      @include breakpoints.md {
+        width: 50%;
+      }
+    }
+  }
+
+  .reverse {
+    flex-direction: column-reverse;
+    @include breakpoints.md {
+      flex-direction: row;
+    }
+  }
+}
+
+.page__image {
+  width: 100%;
+  @include breakpoints.md {
+    width: 50%;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+#page__inside_body {
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 1rem 0rem 1rem 0rem;
+
+  strong {
+    font-weight: 700;
+  }
+}
+
+#page__404body {
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  align-items: center;
+  
+  text-align: center;
+
+  #title {
+    font-weight: 900;
+    font-size: 8rem;
+  }
+
+  #content {
+    font-weight: 300;
+    font-size: 2rem;
+  }
+}
+
+.box {
+  background-color: red;
+  padding: 2rem;
+}
+

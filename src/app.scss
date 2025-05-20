@@ -1,5 +1,5 @@
-@use "./shared/colors";
-@use "./shared/breakpoints";
+@use "@/shared/colors";
+@use "@/shared/breakpoints";
 
 #main {
   display: flex;
@@ -13,17 +13,13 @@
   border-left: 0.5px solid colors.$border-light;
   border-right: 0.5px solid colors.$border-light;
 
+  padding: 1rem;
+  
   width: 100vw;
   @include breakpoints.sm {
+    padding: 2.7rem;
     width: 90vw;
     max-width: 1000px;
   }
-  
-  padding: 2rem;
-}
-
-.box {
-  background-color: red;
-  padding: 2rem;
 }
 

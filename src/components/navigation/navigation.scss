@@ -4,7 +4,20 @@
 .navigation_bar__container {
     display: flex;
     gap: 1rem;
-    justify-content: flex-end;
+    // align-items: center;
+}
+
+.navigation_bar__bar {
+    display: flex;
+    gap: 1rem;
+    justify-self: center;
+
+    height: fit-content;
+    margin: 0 auto;
+    padding: 0.25rem;
+
+    border-radius: 10000px;
+    border: 1.5px solid colors.$border-light;
 }
 
 .navigation_bar__picture {
@@ -12,7 +25,6 @@
     
     justify-self: flex-start;
     align-self: center;
-    margin-right: auto;
 
     img {
         height: 72px;
@@ -23,24 +35,41 @@
 .navigation_bar__single_element {
     cursor: pointer;
 
-    padding: 0.35em 0.70em 0.35em 0.70em;
+    padding: 0.35em 1em 0.35em 1em;
     border-radius: 10000px;
     
     width: fit-content;
     height: fit-content;
 
     a {
-        background: white;
         color: black;
+        background: white;
         font-weight: 700;
         text-decoration: none;
-        transition: 100ms all ease-in-out;
+
+        &:visited {
+            color: black;
+        }
+
+        transition: color 500ms ease;
     }
 
+    
     &:hover {
         a {
             color: colors.$accent-light;
-            transition: 100ms all ease-in-out;
+            transition: color 500ms ease;
+        }
+    }
+    
+    &.active {
+        a {
+            color: colors.$accent-light;
+            transition: color 500ms ease;
         }
     }
 }
+
+
+
+

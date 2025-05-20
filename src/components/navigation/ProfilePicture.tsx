@@ -1,7 +1,7 @@
 import React from "react";
 import "./navigation.scss";
 
-import pinkSquare from "../../assets/pink.png";
+import pinkSquare from "@/assets/pink.png";
 
 interface IProfilePicture {
   to: string;
@@ -13,7 +13,7 @@ export const ProfilePicture: React.FC<IProfilePicture> = ({to}) => {
       <a href={to}><img src={pinkSquare} height={36} /></a>
     </div>
   );
-}
+};
 
 export default ProfilePicture;
 

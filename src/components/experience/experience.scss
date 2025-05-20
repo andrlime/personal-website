@@ -1,0 +1,54 @@
+@use "@/shared/colors";
+@use "@/shared/breakpoints";
+
+.experience_box__box {
+    border: 0.5px solid colors.$border-light;
+    border-radius: 20px;
+    padding: 0.8rem;
+    
+    width: 100%;
+    @include breakpoints.md {
+      width: 50%;
+    }
+}
+
+.experience__company_icon {
+    img {
+        padding: 3px;
+        height: 48px;
+        border: 1.3px solid colors.$border-light;
+        border-radius: 2000px;
+    }
+    
+    cursor: default;
+}
+
+.experience_box__row {
+    display: flex;
+    gap: 1rem;
+    line-height: 1.5;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.experience_box__company_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+    font-size: 0.8rem;
+    .experience_box__company_info__bold {
+        font-weight: 700;
+    }
+    .experience_box__company_info__row {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .experience_box__company_info__text {
+            font-weight: 300;
+        }
+    }
+}
