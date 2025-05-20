@@ -1,0 +1,46 @@
+@use "../../shared/colors";
+@use "../../shared/breakpoints";
+
+.navigation_bar__container {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.navigation_bar__picture {
+    cursor: pointer;
+    
+    justify-self: flex-start;
+    align-self: center;
+    margin-right: auto;
+
+    img {
+        height: 72px;
+        border-radius: 10000px;
+    }
+}
+
+.navigation_bar__single_element {
+    cursor: pointer;
+
+    padding: 0.35em 0.70em 0.35em 0.70em;
+    border-radius: 10000px;
+    
+    width: fit-content;
+    height: fit-content;
+
+    a {
+        background: white;
+        color: black;
+        font-weight: 700;
+        text-decoration: none;
+        transition: 100ms all ease-in-out;
+    }
+
+    &:hover {
+        a {
+            color: colors.$accent-light;
+            transition: 100ms all ease-in-out;
+        }
+    }
+}

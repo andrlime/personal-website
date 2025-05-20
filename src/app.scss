@@ -1,0 +1,29 @@
+@use "./shared/colors";
+@use "./shared/breakpoints";
+
+#main {
+  display: flex;
+  justify-content: center;
+  background-color: colors.$background-light;
+  min-height: 100vh;
+}
+
+#body {
+  background-color: colors.$background-white;
+  border-left: 0.5px solid colors.$border-light;
+  border-right: 0.5px solid colors.$border-light;
+
+  width: 100vw;
+  @include breakpoints.sm {
+    width: 90vw;
+    max-width: 1000px;
+  }
+  
+  padding: 2rem;
+}
+
+.box {
+  background-color: red;
+  padding: 2rem;
+}
+
