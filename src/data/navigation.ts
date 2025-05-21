@@ -1,10 +1,6 @@
 export interface INavigationItem {
-    text: string;
+    text: string | React.ReactNode;
     href: string;
 }
 
-export const NAVIGATION_ITEMS: Array<INavigationItem> = [
-    {text: "About", href: "/about"},
-    {text: "Projects", href: "/projects"},
-    {text: "Photography", href: "/photos"}
-];
+export const RESUME_LINK: string = "https://drive.google.com/file/d/1VkaNIVkXJtKANZjdvE6czdREg-e16nIs/view?usp=sharing";

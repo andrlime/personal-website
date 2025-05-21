@@ -1,0 +1,18 @@
+export const LANGUAGE_ICONS = {
+    "ocaml": "https://img.shields.io/badge/-OCaml-%23FFF4FF?logo=ocaml&style=flat-square",
+    "react": "https://img.shields.io/badge/-React-%23FFF4FF?logo=react&style=flat-square",
+    "python": "https://img.shields.io/badge/-Python-%23FFF4FF?logo=python&style=flat-square",
+    "c++": "https://img.shields.io/badge/-C%2B%2B-%23AB84A8?logo=cplusplus&style=flat-square",
+    "cmake": "https://img.shields.io/badge/-CMake-%23AB84A8?logo=cmake&style=flat-square",
+    "flask": "https://img.shields.io/badge/-Flask-%23AB84A8?logo=flask&style=flat-square",
+    "redux": "https://img.shields.io/badge/-Redux-%23AB84A8?logo=redux&style=flat-square",
+    "mongodb": "https://img.shields.io/badge/-MongoDB-%23FFF4FF?logo=mongodb&style=flat-square",
+    "docker": "https://img.shields.io/badge/-Docker-%23FFF4FF?logo=docker&style=flat-square",
+    "aws": "https://img.shields.io/badge/-AWS-%23FFF4FF?logo=awslambda&style=flat-square",
+    "nextjs": "https://img.shields.io/badge/-NextJS-%23AB84A8?logo=nextdotjs&style=flat-square",
+    "firebase": "https://img.shields.io/badge/-Firebase-%23AB84A8?logo=firebase&style=flat-square",
+    "openai": "https://img.shields.io/badge/-OpenAI%20API-%23AB84A8?logo=openai&style=flat-square",
+    "elixir": "https://img.shields.io/badge/-Elixir-%23AB84A8?logo=elixir&style=flat-square",
+    "tensorflow": "https://img.shields.io/badge/-Tensorflow-%23FFF4FF?logo=tensorflow&style=flat-square",
+    "express": "https://img.shields.io/badge/-ExpressJS-%23FFF4FF?logo=express&style=flat-square",
+};

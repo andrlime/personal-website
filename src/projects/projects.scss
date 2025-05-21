@@ -23,6 +23,13 @@
     .project__bottom {
         justify-self: flex-end;
         margin-top: auto;
+
+        .project__socials_flex {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5em;
+            margin-bottom: 0.25em;
+        }
     }
     
     border-radius: 16px;
@@ -36,4 +43,10 @@
         transition: all 450ms ease;
         cursor: default;
     }
+}
+
+.project__tag_grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
 }

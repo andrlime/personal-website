@@ -4,6 +4,8 @@ import LinkIcon from "@/components/socials/LinkIcon";
 import GithubIcon from "@/components/socials/GithubIcon";
 import VideoIcon from "@/components/socials/VideoIcon";
 
+import TagGrid from "./TagGrid.tsx";
+
 interface IProjectCard {
   title: string;
   description: string;
@@ -19,10 +21,12 @@ export const ProjectCard: React.FC<IProjectCard> = ({title, description, tags, g
       <div className="project__title">{title}</div>
       <div>{description}</div>
       <div className="project__bottom">
-        <div><strong>{tags}</strong></div>
-        {github && <GithubIcon link={github} />}
-        {link && <LinkIcon link={link} />}
-        {youtube && <VideoIcon link={youtube} />}
+        <div className="project__socials_flex">
+          {github && <GithubIcon link={github} size={"1.4rem"} bordered />}
+          {link && <LinkIcon link={link} size={"1.4rem"} bordered />}
+          {youtube && <VideoIcon link={youtube} size={"1.4rem"} bordered />}
+        </div>
+        <TagGrid tags={tags} />
       </div>
     </div>
   );

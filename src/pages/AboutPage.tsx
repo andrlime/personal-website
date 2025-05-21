@@ -7,8 +7,8 @@ import PlanePicture from "@/assets/plane-msp.jpg";
 export const AboutPage: React.FC = () => {
   return (
     <div className="page__body">
-      <div id="page__heading">I'm Andrew Li, a software engineer and chemistry student at Northwestern University from Beijing, China and Seattle, Washington.</div>
-      <Spacer height="sm" />
+      <div id="page__heading">I'm <span className="page__heading__name">Andrew Li</span>, a software engineer and chemistry student at Northwestern University from Beijing, China and Seattle, Washington.</div>
+      <Spacer height="xs" />
       <div className="page__two_columns reverse">
         <div className="page__two_columns__left">
           <div id="page__inside_body">I've lived in the Pacific Northwest for 7 years and Beijing, China for 7 years.</div>

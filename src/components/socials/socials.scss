@@ -7,3 +7,15 @@
         color: colors.$accent-light;
     }
 }
+
+.bordered {
+    svg {
+        background-color: colors.$background-light;
+        
+        border: 1px solid colors.$accent-light;
+        border-radius: 10000px;
+        
+        padding: 0.15rem;
+        transition: all 450ms ease;
+    }
+}

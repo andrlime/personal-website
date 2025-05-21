@@ -11,8 +11,12 @@
 
     .footer__text {
         font-weight: 400;
+        color: colors.$accent-light;
+
         strong {
             font-weight: 800;
+
+            color: colors.$accent-alt;
         }
 
         display: flex;

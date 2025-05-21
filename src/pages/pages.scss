@@ -8,8 +8,13 @@
   #page__heading {
     font-weight: 800;
     font-size: 1.8rem;
+    cursor: default;
     @include breakpoints.sm {
       font-size: 2.4rem;
+    }
+
+    .page__heading__name {
+      color: colors.$accent-alt;
     }
   }
 
@@ -55,6 +60,7 @@
   font-size: 1rem;
   font-weight: 300;
   margin: 1rem 0rem 1rem 0rem;
+  cursor: default;
 
   strong {
     font-weight: 700;

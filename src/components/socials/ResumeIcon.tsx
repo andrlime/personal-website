@@ -1,8 +1,9 @@
 import { IconFileCv } from "@tabler/icons-react";
 import IconWrapper from "./IconWrapper";
+import { RESUME_LINK } from "@/data/navigation.ts";
 
 export const ResumeIcon = () => (
-  <IconWrapper href="https://drive.google.com/file/d/1VkaNIVkXJtKANZjdvE6czdREg-e16nIs/view?usp=sharing" IconComponent={IconFileCv} />
+  <IconWrapper href={RESUME_LINK} IconComponent={IconFileCv} />
 );
 
 export default ResumeIcon;
