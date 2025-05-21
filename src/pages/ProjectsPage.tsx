@@ -14,7 +14,12 @@ export const ProjectsPage: React.FC = () => {
         <ProjectCard title={"Wildhacks 2025 Website"} description={"Engineered website for Northwestern Wildhacks 2025 and maintained CI/CD infrastructure, Firebase database, hosting, and maintenance."} tags={"NextJS, Firebase, Flask, Docker"} github={"https://github.com/NUWildHacks/website2025"} link={"https://www.wildhacks.net/"} />
         <ProjectCard title={"Racism Satire Text-Based Game"} description={"Built text-based, LLM-powered game to critique Orientalism for Asian American Studies department at Northwestern; played by seminar class of 15 students."} tags={"React, OpenAI API, Flask"} github={"https://github.com/andrlime/porygon/tree/main/sunflora"} />
         
+        <ProjectCard title={"Northwestern University Trading Competition"} description={"Implement stochastic market noise generator, improved logging, interprocess data piping for a trading exchange in modern C++."} tags={"C++, Physics, High Frequency Trading"} github={"https://github.com/northwesternfintech/NUTC"} />
         <ProjectCard title={"Clowder: Pub-Sub location streaming app for university students"} description={"Pub-sub model hackathon winner to stream location between university students looking for a study group."} tags={"Elixir, React, Docker"} github={"https://github.com/andrlime/Wildhacks2023"} youtube={"https://www.youtube.com/watch?v=rIFhqEU1GEA"} />
+        
+        <ProjectCard title={"SDRG Tensorflow Layer"} description={"Developed a Tensorflow layer to apply the strong disorder renormalisation group from percolation theory"} tags={"Tensorflow, Python, Machine Learning"} />
+        <ProjectCard title={"THIS MUN and Research Conference Websites"} description={"Engineered fullstack apps for high school MUN and research conferences with custom form logic and automatic emails."} tags={"React, ExpressJS, MongoDB"} />
+        <ProjectCard title={"Aid For Wuhan: COVID-19 Charity"} description={"Raised ¥72300/$11000 for COVID-19 relief (Jan—Apr 2020) in team of five. Sourced PPE, medical-grade disinfectants, medical masks for quarantine zones and hospitals across five provinces. Translated donation reports for transparency."} tags={"Charity, Translation, Fundraising"} link={"http://www.sohu.com/a/382349479_120209831"} />
       </div>
     </div>
   );
