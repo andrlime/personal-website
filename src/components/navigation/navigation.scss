@@ -39,8 +39,15 @@
     align-self: center;
 
     img {
-        height: 72px;
         border-radius: 10000px;
+
+        height: 50px;
+        width: 50px;
+
+        @include breakpoints.lg {
+            height: 72px;
+            width: 72px;
+        }
     }
 }
 

@@ -16,12 +16,17 @@
 
     img {
         padding: 3px;
+        
         border: 1.3px solid colors.$border-light;
         border-radius: 2000px;
+
+        background: colors.$background-white;
         
         height: 40px;
+        min-width: 40px;
         @include breakpoints.sm {
             height: 44px;
+            min-width: 44px;
         }
     }
 }
