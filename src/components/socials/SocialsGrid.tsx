@@ -5,7 +5,7 @@ import ResumeIcon from "./ResumeIcon.tsx";
 
 export const SocialsGrid: React.FC = () => (
   <div>
-    <GithubIcon />
+    <GithubIcon link={"https://github.com/andrlime/"} />
     <LinkedinIcon />
     <EmailIcon />
     <ResumeIcon />

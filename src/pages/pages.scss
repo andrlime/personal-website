@@ -16,7 +16,7 @@
   .page__two_columns {
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 1em;
     width: 100%;
 
     @include breakpoints.md {

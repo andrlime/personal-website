@@ -2,11 +2,10 @@
 @use "@/shared/breakpoints";
 
 .experience_box__box {
-    border: 0.5px solid colors.$border-light;
+    border: 1px solid colors.$border-light;
     border-radius: 20px;
     padding: 0.8rem;
     
-    width: 100%;
     @include breakpoints.md {
       width: 50%;
     }
