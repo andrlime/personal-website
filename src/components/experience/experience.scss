@@ -14,9 +14,13 @@
 .experience__company_icon {
     img {
         padding: 3px;
-        height: 48px;
         border: 1.3px solid colors.$border-light;
         border-radius: 2000px;
+        
+        height: 40px;
+        @include breakpoints.sm {
+            height: 44px;
+        }
     }
     
     cursor: default;
@@ -24,8 +28,9 @@
 
 .experience_box__row {
     display: flex;
-    gap: 1rem;
     line-height: 1.5;
+    
+    gap: 1rem;
 
     justify-content: center;
     align-items: center;
