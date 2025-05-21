@@ -1,6 +1,6 @@
 import "./pages.scss";
 
-import Masonry from 'react-masonry-css';
+import Masonry from "react-masonry-css";
 import { S3_BUCKET_URL, IMAGE_URLS } from "@/data/photos.ts";
 
 export const PhotosPage: React.FC = () => {
@@ -12,7 +12,7 @@ export const PhotosPage: React.FC = () => {
         columnClassName="page__photogrid__column"
       >
         {IMAGE_URLS
-          .sort((_, __) => Math.random() - 0.5)
+          .sort((_a, _b) => Math.random() - 0.5) // eslint-disable-line @typescript-eslint/no-unused-vars
           .map(img => <img src={`${S3_BUCKET_URL}/${img}`} />)}
       </Masonry>
     </div>
