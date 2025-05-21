@@ -96,3 +96,24 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.page__photogrid {
+  display: flex;
+  margin-left: -0.6em;
+  width: 100%;
+}
+.page__photogrid__column {
+  padding-left: 0.6em;
+  background-clip: padding-box;
+  img {
+    background: grey;
+    margin-bottom: 0.6em;
+    width: 100%;
+    transition: all 450ms ease;
+
+    &:hover {
+      transform: scale(1.02);
+      transition: all 450ms ease;
+    }
+  }
+}

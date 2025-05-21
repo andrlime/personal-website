@@ -2,7 +2,7 @@
 @use "@/shared/breakpoints";
 
 .project__card {
-    padding: 1rem;
+    padding: 1.0rem;
 
     
     display: flex;
@@ -13,9 +13,11 @@
     line-height: 1.2;
 
     gap: 0.5rem;
+    font-size: 0.9rem;
     
     .project__title {
         font-weight: 700;
+        font-size: 1.1rem;
     }
 
     .project__bottom {
@@ -25,10 +27,13 @@
     
     border-radius: 16px;
     border: 1.5px solid colors.$border-light;
-    transition: border 150ms ease;
+    transition: all 150ms ease;
+
     &:hover {
         border: 1.5px solid colors.$accent-light;
-        transition: border 450ms ease;
+        transform: scale(1.02);
+
+        transition: all 450ms ease;
         cursor: default;
     }
 }
