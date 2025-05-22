@@ -17,7 +17,7 @@ export const HomePage: React.FC = () => {
       <div className="page__two_columns">
         <div className="page__two_columns__left">
           <div id="page__inside_body">I'm currently building a Markdown to React compiler in OCaml, a Python interface for controlling old optics hardware, and some deep learning + spectroscopy research using Pytorch.</div>
-          <div id="page__inside_body">I have a background in systems and low-latency programming, cloud infrastructure, and chemistry. I can also do fullstack development but find it quite boring. My main programming languages are C++, Python, and OCaml for interesting projects, and TypeScript for frontend development.</div>
+          <div id="page__inside_body">I have a background in systems and low-latency programming, cloud infrastructure, and chemistry. I also have many years of frontend and backend development in React TypeScript. For other projects, my main programming languages are C++, Python, and OCaml.</div>
           <div id="page__inside_body">Some more of my projects can be found <a href="./projects">here</a>! My résumé can be downloaded <a href={RESUME_LINK}>here</a>. I also do photography of small animals and landscapes. Some sample pictures can be found <a href="./photos">here</a>!</div>
         </div>
         
