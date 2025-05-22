@@ -10,7 +10,7 @@ export const HomePage: React.FC = () => {
     <div className="page__body">
       <SocialsGrid />
       
-      <div id="page__heading">I'm <span className="page__heading__name">Andrew Li</span>, a software engineer and chemistry student at Northwestern University</div>
+      <div id="page__heading">I'm <span className="page__heading__name">Andrew Li</span>, a software engineer and chemistry student at <span className="page__heading__school">Northwestern University</span></div>
 
       <Spacer height="xs" />
 
