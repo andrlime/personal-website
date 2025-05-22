@@ -6,9 +6,10 @@ export const ProjectsPage: React.FC = () => {
   return (
     <div className="page__body" id="page__404body">
       <div id="projects_page__grid">
+        <ProjectCard title={"Timburr: OCaml Build Time React Content Bundler"} description={"Employing OCaml for domain specific language to stream data for static sites to Typescript and upload dynamic content to AWS at build time."} tags={"ocaml,typescript,react,aws"} github={"https://github.com/andrlime/timburr"} />
         <ProjectCard title={"Meloetta: OCaml Markdown to React Compiler"} description={"Building Markdown to React OCaml compiler to power LLM-prompted, text-based games."} tags={"ocaml,react"} github={"https://github.com/andrlime/porygon/tree/main/meloetta"} />
         <ProjectCard title={"Espeon: Python ESP-300 Translation Stage Interface"} description={"Developing Python interface for many-decades-old ESP-300 translation stage that marshals and demarshals byte stream commands and responses."} tags={"python"} github={"https://github.com/andrlime/porygon/tree/main/espeon"} />
-        <ProjectCard title={"Sealeo: Low Overhead C++ Threads"} description={"Developing clone of Go routines and channels."} tags={"c++,cmake"} github={"https://github.com/andrlime/porygon/tree/main/sealeo"} />
+        {/* <ProjectCard title={"Sealeo: Low Overhead C++ Threads"} description={"Developing clone of Go routines and channels."} tags={"c++,cmake"} github={"https://github.com/andrlime/porygon/tree/main/sealeo"} /> */}
         
         <ProjectCard title={"NHSDLC Debate App"} description={"Engineered digital debate judge information system for 2500 students per semester. Currently being refactored."} tags={"flask,react,redux,mongodb,docker,aws"} github={"https://github.com/andrlime/NewDebateApp/"} />
         <ProjectCard title={"Wildhacks 2025 Website"} description={"Engineered website for Northwestern Wildhacks 2025 and maintained CI/CD infrastructure, Firebase database, hosting, and maintenance."} tags={"nextjs,firebase,flask,docker"} github={"https://github.com/NUWildHacks/website2025"} link={"https://www.wildhacks.net/"} />

@@ -1,6 +1,6 @@
 export const LANGUAGE_ICONS = {
     "ocaml": "https://img.shields.io/badge/-OCaml-%23FFF4FF?logo=ocaml&style=flat-square",
-    "react": "https://img.shields.io/badge/-React-%23FFF4FF?logo=react&style=flat-square",
+    "react": "https://img.shields.io/badge/-React-%23AB84A8?logo=react&style=flat-square",
     "python": "https://img.shields.io/badge/-Python-%23FFF4FF?logo=python&style=flat-square",
     "c++": "https://img.shields.io/badge/-C%2B%2B-%23AB84A8?logo=cplusplus&style=flat-square",
     "cmake": "https://img.shields.io/badge/-CMake-%23AB84A8?logo=cmake&style=flat-square",
@@ -14,5 +14,6 @@ export const LANGUAGE_ICONS = {
     "openai": "https://img.shields.io/badge/-OpenAI%20API-%23AB84A8?logo=openai&style=flat-square",
     "elixir": "https://img.shields.io/badge/-Elixir-%23AB84A8?logo=elixir&style=flat-square",
     "tensorflow": "https://img.shields.io/badge/-Tensorflow-%23FFF4FF?logo=tensorflow&style=flat-square",
-    "express": "https://img.shields.io/badge/-ExpressJS-%23FFF4FF?logo=express&style=flat-square",
+    "express": "https://img.shields.io/badge/-ExpressJS-%23AB84A8?logo=express&style=flat-square",
+    "typescript": "https://img.shields.io/badge/-TypeScript-%23FFF4FF?logo=typescript&style=flat-square",
 };

@@ -19,7 +19,7 @@ export const AboutPage: React.FC = () => {
         </div>
         
         <div className="page__image">
-          <img src={PlanePicture} />
+          <img src={PlanePicture} alt="Picture of me in Airbus A220 cockpit in Minneapolis, MN" />
         </div>
       </div>
     </div>

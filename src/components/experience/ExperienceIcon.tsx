@@ -28,7 +28,7 @@ export const ExperienceIcon: React.FC<IExperienceIcon> = ({icon}) => {
 
   return (
 		<div className="experience__company_icon">
-    	<img src={iconSrc} />
+    	<img src={iconSrc} alt={`Logo for ${icon}`} />
 		</div>
   );
 };
