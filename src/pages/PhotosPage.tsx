@@ -6,7 +6,7 @@ import { S3_BUCKET_URL, IMAGE_URLS } from "@/data/photos.ts";
 // TODO: Embed alt text in CSV spreadsheet during export
 export const PhotosPage: React.FC = () => {
   return (
-    <div className="page__body" id="page__404body">
+    <div className="page__body">
       <Masonry
         breakpointCols={{ default: 4, 1024: 3, 768: 2, 480: 1 }}
         className="page__photogrid"

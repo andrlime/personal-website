@@ -4,7 +4,7 @@ import ProjectCard from "@/projects/ProjectCard";
 
 export const ProjectsPage: React.FC = () => {
   return (
-    <div className="page__body" id="page__404body">
+    <div className="page__body">
       <div id="projects_page__grid">
         <ProjectCard title={"Conkeldurr: OCaml Build Time React Content Bundler"} description={"Employing OCaml for domain specific language to stream data for static sites to Typescript and upload dynamic content to AWS at build time."} tags={"ocaml,typescript,react,aws"} github={"https://github.com/andrlime/conkeldurr"} />
         <ProjectCard title={"Meloetta: OCaml Markdown to React Compiler"} description={"Building Markdown to React OCaml compiler to power LLM-prompted, text-based games."} tags={"ocaml,react"} github={"https://github.com/andrlime/meloetta"} />
