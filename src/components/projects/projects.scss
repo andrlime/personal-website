@@ -3,7 +3,6 @@
 
 .project__card {
     padding: 1.0rem;
-
     
     display: flex;
     flex-direction: column;
@@ -13,7 +12,15 @@
     line-height: 1.2;
 
     gap: 0.5rem;
-    font-size: 0.9rem;
+    
+    border-radius: 16px;
+    border: 1.5px solid colors.$border-light;
+    transition: all 150ms ease;
+    
+    font-size: 0.8rem;
+    @include breakpoints.md {
+        font-size: 1rem;
+    }
     
     .project__title {
         font-weight: 700;
@@ -31,10 +38,6 @@
             margin-bottom: 0.25em;
         }
     }
-    
-    border-radius: 16px;
-    border: 1.5px solid colors.$border-light;
-    transition: all 150ms ease;
 
     &:hover {
         border: 1.5px solid colors.$accent-light;

@@ -5,6 +5,14 @@
     border: 1px solid colors.$border-light;
     border-radius: 20px;
     padding: 0.8rem;
+
+    display: flex;
+    flex-direction: column;
+    
+    gap: 0.8rem;
+    @include breakpoints.sm {
+      gap: 0.2rem;
+    }
     
     @include breakpoints.md {
       width: 50%;
@@ -55,6 +63,11 @@
         display: flex;
         justify-content: space-between;
         width: 100%;
+        
+        flex-direction: column;
+        @include breakpoints.xs {
+            flex-direction: row;
+        }
 
         .experience_box__company_info__text {
             font-weight: 300;

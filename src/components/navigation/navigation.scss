@@ -15,6 +15,7 @@
 
 .navigation_bar__bar {
     display: flex;
+
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -30,6 +31,11 @@
     border: 1px solid colors.$border-light;
 
     width: fit-content;
+
+    flex-direction: column;
+    @include breakpoints.xxs {
+        flex-direction: row;
+    }
 }
 
 .navigation_bar__picture {
@@ -58,10 +64,16 @@
     
     width: fit-content;
     height: fit-content;
-    
-    line-height: 0;
 
     padding: 0.35em 0.5em 0.35em 0.5em;
+    
+    line-height: 0.7;
+    margin-bottom: 0.25rem;
+    @include breakpoints.xxs {
+        line-height: 0;
+        margin-bottom: 0rem;
+    }
+
     @include breakpoints.xs {
         padding: 0.35em 0.8em 0.35em 0.8em;
     }

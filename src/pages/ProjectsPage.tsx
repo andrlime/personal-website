@@ -1,6 +1,6 @@
 import "./pages.scss";
 
-import ProjectCard from "@/projects/ProjectCard";
+import ProjectCard from "@/components/projects/ProjectCard";
 
 export const ProjectsPage: React.FC = () => {
   return (
