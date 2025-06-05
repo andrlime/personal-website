@@ -4,4 +4,5 @@ export interface INavigationItem {
 }
 
 // export const RESUME_LINK: string = "./resume.pdf";
-export const RESUME_LINK: string = "https://drive.google.com/file/d/1F4ccX1tRpxXr5jiWrDB_c2MLJP8cKH0H/view";
+export const QD_RESUME_LINK: string = "https://drive.google.com/file/d/1Uv-47uv2fvhak16yV1zGq32_vTd7u3rB/view";
+export const SWE_RESUME_LINK: string = "https://drive.google.com/file/d/1Z5rgLueYFSrMG86OxyEhyAfTeWBIwftS/view";
