@@ -21,7 +21,6 @@ export const RootPage: React.FC = () => {
     <div id="main">
       <div id="body">
         <NavigationBar navigationItems={NAVIGATION_ITEMS} />
-        <Spacer height="sm" />
         <Outlet />
         <Spacer height="xs" />
         <Footer />
