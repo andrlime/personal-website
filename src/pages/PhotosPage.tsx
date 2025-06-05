@@ -1,12 +1,15 @@
 import "./pages.scss";
 
 import Masonry from "react-masonry-css";
+import Spacer from "@/components/spacer/Spacer";
+
 import { S3_BUCKET_URL, IMAGE_URLS } from "@/data/photos.ts";
 
 // TODO: Embed alt text in CSV spreadsheet during export
 export const PhotosPage: React.FC = () => {
   return (
     <div className="page__body">
+      <Spacer height="sm" />
       <Masonry
         breakpointCols={{ default: 4, 1024: 3, 768: 2, 480: 1 }}
         className="page__photogrid"
