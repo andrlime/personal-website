@@ -75,7 +75,9 @@
     }
 
     .cv-expanded-div.standard {
-        flex-direction: column;
+        // flex-direction: column;
+        flex-direction: row;
+        gap: 1em;
     }
 
     .cv-expanded-div.open {

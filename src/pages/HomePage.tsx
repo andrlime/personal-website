@@ -7,6 +7,8 @@ import ExperienceBox from "@/components/experience/ExperienceBox";
 export const HomePage: React.FC = () => {
   return (
     <div className="page__body">
+      <Spacer height="xs" />
+
       <SocialsGrid />
       <div id="page__heading">I'm <span className="page__heading__name">Andrew Li</span>, a software engineer and chemistry student at <span className="page__heading__school">Northwestern University</span></div>
 
