@@ -16,8 +16,9 @@ export const HomePage: React.FC = () => {
 
       <div className="page__two_columns">
         <div className="page__two_columns__left">
-          <div id="page__inside_body">I'm currently building a Markdown to React compiler in OCaml, a Python interface for controlling old optics hardware, and some deep learning + spectroscopy research using Pytorch.</div>
-          <div id="page__inside_body">I have a background in systems and low-latency programming, cloud infrastructure, and chemistry. I also have many years of frontend and backend development in React TypeScript. For other projects, my main programming languages are C++, Python, and OCaml.</div>
+          <div id="page__inside_body">I'm currently building a 8-bit GameBoy emulator in modern C++ 26 and a CSV-schema to TypeScript compiler in OCaml. I'm interested broadly in type safety, compilers, and distributed systems. I'm scoping and planning a medium-scale deep learning and spectroscopy project in Pytorch, where time dependent linear combinations cannot be resolved analytically; a properly trained deep neural network can likely do a reasonable job.</div>
+          <div id="page__inside_body">My background is in systems, low-latency programming, distributed systems, and chemistry. I TA several low-level classes at Northwestern, including Intro C/C++ programming where students write a Python interpreter in C and a Python debugger in C++. My main programming languages are C++, Go, Python, and OCaml. I am proficient in C, Java, TypeScript, x86 Assembly; and I've worked with (but am not proficient in) Rust and Elixir.</div>
+          <div id="page__inside_body">Strictly when necessary, I have enough background in frontend development to create visually appealing GUIs, CLIs, and web apps. The components of this website were all <em>manually styled</em> in SCSS.</div>
           <div id="page__inside_body">Some more of my projects can be found <a href="./projects">here</a>! I also do photography of small animals and landscapes. Some sample pictures can be found <a href="./photos">here</a>!</div>
         </div>
         
