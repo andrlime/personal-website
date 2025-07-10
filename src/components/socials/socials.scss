@@ -3,6 +3,7 @@
 
 .socials_icon {
     color: colors.$accent-light;
+
     &:visited {
         color: colors.$accent-light;
     }
@@ -48,6 +49,7 @@
 
 
     .cv-div-icon {
+        cursor: pointer;
         align-self: flex-end;
     }
 
