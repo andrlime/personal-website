@@ -13,6 +13,7 @@ const NAVIGATION_ITEMS: Array<INavigationItem> = [
   {text: <HouseIcon link="/" size={"1.5rem"} />, href: "/"},
   {text: "About", href: "/about"},
   {text: "Projects", href: "/projects"},
+  {text: "Posts", href: "/blog"},
   {text: "Photography", href: "/photos"}
 ];
 

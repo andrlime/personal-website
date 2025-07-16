@@ -9,6 +9,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/HomePage.tsx";
 import AboutPage from "./pages/AboutPage.tsx";
 import Error404 from "./pages/Error404.tsx";
+import BlogPage from "./pages/BlogPage.tsx";
 import ProjectsPage from "./pages/ProjectsPage.tsx";
 import RootPage from "./pages/RootPage.tsx";
 import PhotosPage from "./pages/PhotosPage.tsx";
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       { index: true, element: <HomePage /> },
       { path: "about", element: <AboutPage /> },
       { path: "projects", element: <ProjectsPage /> },
+      { path: "blog", element: <BlogPage /> },
       { path: "photos", element: <PhotosPage /> },
       { path: "*", element: <Error404 /> },
     ],
