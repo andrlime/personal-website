@@ -13,12 +13,18 @@ export const ProjectsPage: React.FC = () => {
         <ProjectCard title={"Conkeldurr: OCaml Build Time React Content Bundler"} description={"Employing OCaml for domain specific language to stream data for static sites to Typescript and upload dynamic content to AWS at build time."} year={"2025"} tags={"ocaml,typescript,react,aws"} github={"https://github.com/andrlime/conkeldurr"} />
         {/* <ProjectCard title={"Meloetta: OCaml Markdown to React Compiler"} description={"Building Markdown to React OCaml compiler to power LLM-prompted, text-based games."} tags={"ocaml,react"} github={"https://github.com/andrlime/meloetta"} /> */}
         <ProjectCard title={"Espeon: Python ESP-300 Translation Stage Interface"} description={"Developing Python interface for many-decades-old ESP-300 translation stage that marshals and demarshals byte stream commands and responses."} year={"2025"} tags={"python"} github={"https://github.com/andrlime/espeon"} />
+        
+        <ProjectCard title={"Math 311-1: Probability and Stochastic Processes LiveTeX course notes"} description={"LiveTeXed course notes for Math 311-1, Fall Quarter 2024."} year={"2024"} tags={"latex"} github={"https://github.com/andrlime/math311-fall2024"} />
+        
         <ProjectCard title={"Northwestern University Trading Competition"} description={"Implement Brownian-motion based stochastic noise generator, interprocess data piping for trading exchange in modern C++."} year={"2024"} tags={"c++"} github={"https://github.com/northwesternfintech/NUTC"} />
         {/* <ProjectCard title={"Sealeo: Low Overhead C++ Threads"} description={"Developing clone of Go routines and channels."} tags={"c++,cmake"} github={"https://github.com/andrlime/`sealeo"} /> */}
         
+        
         <ProjectCard title={"Racism Satire Text-Based Game"} description={"Built text-based, LLM-powered game to critique Orientalism for Asian American Studies department at Northwestern; played by seminar class of 15 students."} year={"2025"} tags={"react, openai, flask"} github={"https://github.com/andrlime/sunflora"} />
+        
         <ProjectCard title={"NHSDLC Debate App"} description={"Engineered digital debate judge information system for 2500 students per semester. Currently being refactored."} year={"2022–25"} tags={"flask,react,redux,mongodb,docker,aws"} github={"https://github.com/andrlime/NewDebateApp/"} />
         
+        <ProjectCard title={"Math 381: Fourier Analysis LiveTeX course notes"} description={"LiveTeXed course notes for Math 381, Fall Quarter 2023."} year={"2023"} tags={"latex"} github={"https://github.com/andrlime/math381-fall2023"} />
         <ProjectCard title={"Wildhacks Infrastructure"} description={"Engineered website and core infrastructure for Northwestern Wildhacks 2025, with Firestore, hosting, and maintenance. Added features to increase hackathon efficiency."} year={"2023–25"} tags={"nextjs,firebase,flask,docker"} github={"https://github.com/NUWildHacks/website2025"} link={"https://www.wildhacks.net/"} />
         <ProjectCard title={"Clowder: Pub-Sub location streaming app for university students"} description={"Pub-sub model hackathon winner to stream location between university students looking for a study group."} year={"2023"} tags={"elixir,react,docker"} github={"https://github.com/andrlime/Wildhacks2023"} youtube={"https://www.youtube.com/watch?v=rIFhqEU1GEA"} />
         

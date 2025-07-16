@@ -1,6 +1,7 @@
 export const LANGUAGE_ICONS = {
     "go": "https://img.shields.io/badge/-Golang-%23FFF4FF?logo=go&style=flat-square",
     "julia": "https://img.shields.io/badge/-Julia-%23FFF4FF?logo=julia&style=flat-square",
+    "latex": "https://img.shields.io/badge/-LaTeX-%23AB84A8?logo=latex&style=flat-square",
     "rabbitmq": "https://img.shields.io/badge/-RabbitMQ-%23FFF4FF?logo=rabbitmq&style=flat-square",
     "grpc": "https://img.shields.io/badge/-gRPC-%23FFF4FF?style=flat-square",
     "ocaml": "https://img.shields.io/badge/-OCaml-%23FFF4FF?logo=ocaml&style=flat-square",
